@@ -1,0 +1,269 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* common styles start */
+img{
+    max-width: 100%;
+}
+.primary-btn{ 
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border:0;
+    cursor: pointer;
+}
+.title{
+color: #272727;
+font-size: 70px;
+font-weight: 700;
+}
+.title-description{
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+margin: 25px 0;
+text-align: center;
+line-height: 30px;
+}
+.padding-left-right{
+    padding: 0px 120px;
+}
+
+/* common styles end */
+
+/* header styles start */
+.header{
+    /* background-color:rgba(229,84,115,.2); */
+    background: rgba(229, 84, 115, 0.05);
+    height: 90vh;
+}
+/* nav related style  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    text-transform: capitalize;
+  }
+  .logo{
+    color:#E55473;
+    font-size: 45px;
+    font-weight: 800;
+  }
+  .text-color{
+    color:#272727;
+  }
+.menubar .logo{
+    margin-top: 20px;
+}
+  nav> ul{
+    display: flex;
+    align-items: center;
+  
+  }
+  nav li{
+    list-style: none;
+    margin-right: 50px;
+  }
+  nav a{
+    text-decoration: none;
+    color:#474747;
+  }
+/* header styles end */
+/* banner css start */
+.header .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:80px;
+    margin: 100px 0px;
+}
+
+/* banner css end */
+
+/* features area css start */
+.features-area{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.features-area .title{
+    font-size: 40px;
+    text-align: center;
+}
+.features-area .title-description{
+    margin-bottom: 40px;
+}
+.main-features{
+    display: flex;
+    gap:30px;
+}
+.features-content{
+    display: flex;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.features-content img{
+    width:250px;
+}
+.features-bg-two{
+    background: rgba(5, 151, 160, 0.15);
+}
+.features-bg-three{
+    background: rgba(71, 125, 17, 0.15);
+}
+.features-texts{
+display: flex;
+justify-content: space-around;
+color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+text-decoration-line: underline;
+margin: 15px 0;
+}
+/* features area css end */
+/* rectangle css start */
+.rectangle{
+    margin: 100px 0;
+}
+.rectangle-content{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.rectangle-img{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.rectangle-text{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* rectangle css end */
+
+/* hot deal css start */
+.hot-deal{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 100px;
+}
+.hot-deal-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+.hot-deal .title{
+    font-size: 40px;
+}
+.hot-deal span{
+    color:#E55473;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.hot-deal .primary-btn{
+   text-align: center;
+}
+.hot-deal button{
+    margin-left: 140px;
+}
+/* hot deal css end */
+
+/* instagram css start */
+.instagram-area .title{
+    font-size: 40px;
+    text-align: center;
+}
+.instagram-area .features-content{
+ border-radius: 0;
+ background: transparent;
+}
+/* instagram css end */
+/* subscription css start */
+.subscription-area{
+    margin: 100px 0px;
+}
+.subscription-area .title{
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.subscription-area .title-description{
+    position: relative;
+    top: 100px;
+}
+.subscription-cover{
+    border-radius: 8px;
+    background: url('../images/Rectangle 9.png'), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    height: 450px;
+}
+.subscription-box{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+    position: relative;
+    top: 140px;
+}
+.subscription-email{
+    background: #FFF;
+    padding: 24px 0px;
+    border:0;
+    border-radius: 8px;
+    width: 40%;
+}
+.subscription-email:focus{
+    outline: none;
+}
+.subscription-email::placeholder{
+    padding: 20px;
+}
+/* subscription css end */
+/* footer css start  */
+.footer{
+    background: #111010;
+}
+.footer-content{
+    text-align: center;
+    padding: 100px;
+}
+.footer-content .text-color{
+    color:#ffffff;
+}
+.footer-para{
+    margin: 15px 0;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.footer-content{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* footer css end */
